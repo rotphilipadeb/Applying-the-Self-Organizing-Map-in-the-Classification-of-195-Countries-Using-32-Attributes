@@ -1,0 +1,2 @@
+# Applying-the-Self-Organizing-Map-in-the-Classification-of-195-Countries-Using-32-Attributes
+Conducted a research project to classify countries using machine learning, addressing biases inherent in traditional methods like the Human Development Index. Developed an objective tool to accurately categorize countries into economic classes, ensuring fair and unbiased classification based on comprehensive economic indicators.
