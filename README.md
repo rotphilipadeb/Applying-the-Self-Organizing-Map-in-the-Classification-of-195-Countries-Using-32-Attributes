@@ -1,9 +1,98 @@
-# Applying-the-Self-Organizing-Map-in-the-Classification-of-195-Countries-Using-32-Attributes
-<p>Conducted a research project to classify countries using machine learning, addressing biases inherent in traditional methods like the Human Development Index. Developed an objective tool to accurately categorize countries into economic classes, ensuring fair and unbiased classification based on comprehensive economic indicators.</p>
-<img src="world-political-map.jpg" alt="World Map">
-<p><i>Source: https://www.mapsofindia.com/world-map/</i></p>
-<p>Many organizations such as World Bank, UN, Wikipedia and others have tried to classify countries as under-developed, developing, developed and highly developed countries based on certain criteria but these criteria aren’t robust enough. In most cases, they used one to three criteria. This research classified 195 countries using 32 attributes (features/ criteria) with the self-organizing map (SOM) algorithm. This is a robust classification because 32 features are considered for the classification.</p>
-  
-  <p>SOM is an unsupervised learning algorithm which reduces high dimensional data to 2 dimensions. The SOM classifies the 195 countries into 5 categories, implying that it is possible to classify countries with SOM algorithm. There is no benchmark to measure the accuracy of the SOM algorithm because most classifications are based on at most three criteria which are not robust enough, but comparing the results of the SOM algorithm with these weak classifications still show the flawlessness of the SOM algorithm. This research will help scientist, students, lecturers, teachers, organizations and countries to have a robust knowledge about the state of their countries from an unbiased position and will also help organizations and countries to make concrete decisions about business establishment in viable places all over the world. The key limitation is the reliability of the data and the number of attributes, which could be increased in future researches for better results.</p>
+# 🌍 Applying the Self-Organizing Map (SOM) in the Classification of 195 Countries Using 32 Attributes  
 
-<p><b>Adebayo Rotimi Philip (2023)</b>. Applying the Self-Organizing Map in the Classification of 195 Countries Using 32 Attributes, <i>International Journal of Intelligent Information Systems</i>, Volume 12, Issue 1, February 2023, pp. 10-25, doi: 10.11648/j.ijiis.20231201.12</p>
+---
+
+## 🧠 Overview  
+This project applies **Self-Organizing Maps (SOM)** — an **unsupervised neural network algorithm** — to classify **195 countries** based on **32 socio-economic attributes**.  
+Unlike traditional approaches such as the **Human Development Index (HDI)** that depend on just a few indicators, this project introduces a **multi-dimensional, data-driven method** that offers a **more objective and fair classification** of global development levels.  
+
+> **Goal:** To build a robust machine learning framework that classifies countries into economic categories without human bias, using 32 quantitative indicators.
+
+---
+
+## 🎯 Motivation  
+Organizations like the **World Bank**, **United Nations**, and **Wikipedia** classify nations into *developed*, *developing*, or *underdeveloped* categories using very few metrics — often **1 to 3 criteria** such as GDP per capita, literacy rate, or life expectancy.  
+
+This approach, while simple, **fails to capture the complexity** of modern development.  
+By leveraging **machine learning**, this project provides a **comprehensive, unbiased, and data-centric classification** model that reflects the true global diversity in economic and social progress.
+
+---
+
+## ⚙️ Methodology  
+
+### 1️⃣ Data Collection & Preprocessing  
+- Gathered data for 195 countries from **reliable global sources** (World Bank, UNDP, IMF, Wikipedia).  
+- Selected **32 features** across domains like economy, education, infrastructure, and governance.  
+- Cleaned and normalized data using `Pandas` and `Scikit-learn`.  
+
+### 2️⃣ Algorithm: Self-Organizing Map (SOM)  
+- SOM is an **unsupervised learning** technique that reduces **high-dimensional data** into a **2D representation**.  
+- The model learns to cluster similar countries together based on feature similarity.  
+- The SOM grid output displays meaningful **clusters** that can be visually interpreted.  
+
+### 3️⃣ Implementation Tools  
+| Tool | Purpose |
+|------|----------|
+| Python | Core language |
+| NumPy, Pandas | Data processing |
+| MiniSom | SOM algorithm implementation |
+| Matplotlib, Seaborn | Data visualization |
+| Scikit-learn | Scaling and preprocessing |
+| Jupyter Notebook | Model experimentation |
+
+---
+
+## 📊 Key Results  
+
+The SOM classified **195 countries** into **5 major development categories** based on the 32 features.  
+
+| Cluster | Development Category | Example Countries |
+|----------|----------------------|------------------|
+| Cluster 1 | Highly Developed | Switzerland, Japan, Germany |
+| Cluster 2 | Developed | Poland, Chile, UAE |
+| Cluster 3 | Developing | Brazil, China, South Africa |
+| Cluster 4 | Underdeveloped | Nigeria, Pakistan, Kenya |
+| Cluster 5 | Low Income / Fragile | Haiti, Yemen, Afghanistan |
+
+> 📌 These results suggest that the SOM algorithm captures subtle variations that traditional indices often overlook.  
+
+---
+
+## 🧩 Visualizations  
+
+<p align="center">
+  <img src="docs/screenshots/som_grid.png" width="70%" alt="SOM Cluster Grid">
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/cluster_heatmap.png" width="70%" alt="Cluster Heatmap">
+</p>
+
+- **SOM Grid:** Visual 2D representation of countries based on 32 attributes.  
+- **Cluster Heatmap:** Shows which features dominate in each development cluster.  
+- **Radar Charts:** Provide multi-feature comparison among countries.  
+
+---
+
+## 💡 Insights  
+
+- SOM reveals **nonlinear relationships** among indicators — beyond what GDP or HDI can show.  
+- Countries with similar GDP may fall into **different clusters** due to disparities in education, healthcare, or technology access.  
+- Provides a **neutral, data-based framework** for policy-making, education, and economic analysis.  
+
+---
+
+## ⚙️ How to Run  
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/Applying-the-SOM-in-the-Classification-of-195-Countries.git
+
+# Navigate to the folder
+cd Applying-the-SOM-in-the-Classification-of-195-Countries
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the notebooks
+jupyter notebook notebooks/04_self_organizing_map_training.ipynb
