@@ -1,10 +1,14 @@
-# 🌍 Applying the Self-Organizing Map (SOM) in the Classification of 195 Countries Using 32 Attributes  
+# 🌍 Can Machine Learning Classify Countries Better Than the Human Development Index (HDI)?  
 
 ---
 
 ## 🧠 Overview  
+The classification of countries into their respective economics has been very controversial. The most acceptable classification is the Human Development Index (HDI). However, HDI only considers three factors which is not enough to determine the appropriate classification of countries into their respective economics. 
 This project applies **Self-Organizing Maps (SOM)** — an **unsupervised neural network algorithm** — to classify **195 countries** based on **32 socio-economic attributes**.  
 Unlike traditional approaches such as the **Human Development Index (HDI)** that depend on just a few indicators, this project introduces a **multi-dimensional, data-driven method** that offers a **more objective and fair classification** of global development levels.  
+<img src="world-political-map.jpg" alt="World Map" width="500" height="300">
+<p><i>Source: <a href="https://www.mapsofindia.com/world-map/" target="_blank">https://www.mapsofindia.com/world-map/</a></i></p>
+
 
 > **Goal:** To build a robust machine learning framework that classifies countries into economic categories without human bias, using 32 quantitative indicators.
 
