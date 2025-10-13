@@ -69,17 +69,16 @@ The SOM classified **195 countries** into **5 major development categories** bas
 </p>
 
 <p align="center">
-  <img src="SOM_Country_Clusters_Result2.png" width="70%" alt="Cluster Heatmap">
+  <img src="SOM_Country_Clusters_Result2.png" width="100%" alt="Cluster Heatmap">
 </p>
 
 <p align="center">
-  <img src="SOM_Country_Clusters_Result3.png" width="70%" alt="Cluster Heatmap">
+  <img src="SOM_Country_Clusters_Result3.png" width="100%" alt="Cluster Heatmap">
 </p>
 
 - **SOM Grid:** Visual 2D representation of countries based on 32 attributes.  
-- **Cluster Heatmap:** Shows which features dominate in each development cluster.  
 - **Radar Charts:** Provide multi-feature comparison among countries.  
-
+- **Cluster Heatmap:** Shows which features dominate in each development cluster.  
 ---
 
 ## 💡 Insights  
@@ -89,18 +88,3 @@ The SOM classified **195 countries** into **5 major development categories** bas
 - Provides a **neutral, data-based framework** for policy-making, education, and economic analysis.  
 
 ---
-
-## ⚙️ How to Run  
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/Applying-the-SOM-in-the-Classification-of-195-Countries.git
-
-# Navigate to the folder
-cd Applying-the-SOM-in-the-Classification-of-195-Countries
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the notebooks
-jupyter notebook notebooks/04_self_organizing_map_training.ipynb
