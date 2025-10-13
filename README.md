@@ -69,11 +69,11 @@ The SOM classified **195 countries** into **5 major development categories** bas
 </p>
 
 <p align="center">
-  <img src="SOM_Country_Clusters_Result2.png" width="100%" alt="Cluster Heatmap">
+  <img src="SOM_Country_Clusters_Result2.png" width="90%" alt="Cluster Heatmap">
 </p>
 
 <p align="center">
-  <img src="SOM_Country_Clusters_Result3.png" width="100%" alt="Cluster Heatmap">
+  <img src="SOM_Country_Clusters_Result3.png" width="90%" alt="Cluster Heatmap">
 </p>
 
 - **SOM Grid:** Visual 2D representation of countries based on 32 attributes.  
