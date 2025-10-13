@@ -65,7 +65,7 @@ The SOM classified **195 countries** into **5 major development categories** bas
 ## 🧩 Visualizations  
 
 <p align="center">
-  <img src="docs/screenshots/som_grid.png" width="70%" alt="SOM Cluster Grid">
+  <img src="SOM_Country_Clusters_Results.png" width="70%" alt="SOM Cluster Grid">
 </p>
 
 <p align="center">
